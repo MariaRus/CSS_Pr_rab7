@@ -8,13 +8,13 @@ html {
 }
 
 body {
-  _width: 70%; /* для старых версий IE 6+ */
+  _width: 70%; /* Г¤Г«Гї Г±ГІГ Г°Г»Гµ ГўГҐГ°Г±ГЁГ© IE 6+ */
   color: #888;
-  font: 14px/20px Helvetica, Arial, sans-serif; /*  размер шрифта/интерлиньяж, семейство шрифтов */
+  font: 14px/20px Helvetica, Arial, sans-serif; /*  Г°Г Г§Г¬ГҐГ° ГёГ°ГЁГґГІГ /ГЁГ­ГІГҐГ°Г«ГЁГ­ГјГїГ¦, Г±ГҐГ¬ГҐГ©Г±ГІГўГ® ГёГ°ГЁГґГІГ®Гў */
   margin: 20px auto 0;
   max-width: 800px;
   text-align: center;
-  -webkit-font-smoothing: antialiased; /* включение сглаживания шрифтов для браузера Safari 5+ */
+  -webkit-font-smoothing: antialiased; /* ГўГЄГ«ГѕГ·ГҐГ­ГЁГҐ Г±ГЈГ«Г Г¦ГЁГўГ Г­ГЁГї ГёГ°ГЁГґГІГ®Гў Г¤Г«Гї ГЎГ°Г ГіГ§ГҐГ°Г  Safari 5+ */
   text-shadow:0 -2px 1px #000;
   }
   
@@ -25,7 +25,7 @@ body {
 	background: - o-linear-gradient(270deg,#ababab,#5e5d5d);
 	background: - ms-linear-gradient(270deg,#ababab,#5e5d5d);
 	background: linear-gradient(270deg,#ababab,#5e5d5d);
-    border:1px solid rgba(255,255,255,.1);
+        border:1px solid rgba(255,255,255,.1);
 	-moz-border-radius:10px;
 	-webkit-border-radius:10px;
 	border-radius:10px;
@@ -67,7 +67,7 @@ p{
   }
 
 #slider3 {
-  box-shadow: none; /* отключаем тень у блока в котором осуществляется вывод больших фото */
+  box-shadow: none; /* Г®ГІГЄГ«ГѕГ·Г ГҐГ¬ ГІГҐГ­Гј Гі ГЎГ«Г®ГЄГ  Гў ГЄГ®ГІГ®Г°Г®Г¬ Г®Г±ГіГ№ГҐГ±ГІГўГ«ГїГҐГІГ±Гї ГўГ»ГўГ®Г¤ ГЎГ®Г«ГјГёГЁГµ ГґГ®ГІГ® */
   -moz-box-shadow: none;
   -webkit-box-shadow: none;
   margin: 0 auto;
@@ -77,7 +77,7 @@ p{
   list-style: none;
   padding: 0;
   background: rgba(0,0,0,.25);
-  box-shadow: 0 0 1px rgba(255,255,255,.3), inset 0 0 5px rgba(0,0,0,1.0); /* задаем цвет тени  для блока миниатюр */
+  box-shadow: 0 0 1px rgba(255,255,255,.3), inset 0 0 5px rgba(0,0,0,1.0); /* Г§Г Г¤Г ГҐГ¬ Г¶ГўГҐГІ ГІГҐГ­ГЁ  Г¤Г«Гї ГЎГ«Г®ГЄГ  Г¬ГЁГ­ГЁГ ГІГѕГ° */
   -moz-box-shadow: 0 0 1px rgba(255,255,255,.3), inset 0 0 5px rgba(0,0,0,1.0);
   -webkit-box-shadow: 0 0 1px rgba(255,255,255,.3), inset 0 0 5px rgba(0,0,0,1.0);
   font-size: 18px;
@@ -120,7 +120,7 @@ a {
 #slider3-pager a {
   padding: 0;
 }
-/* медиа-запрос на CSS3 для задействования стиля оформления, если размер экрана монитора меньше 600 пикселей */
+/* Г¬ГҐГ¤ГЁГ -Г§Г ГЇГ°Г®Г± Г­Г  CSS3 Г¤Г«Гї Г§Г Г¤ГҐГ©Г±ГІГўГ®ГўГ Г­ГЁГї Г±ГІГЁГ«Гї Г®ГґГ®Г°Г¬Г«ГҐГ­ГЁГї, ГҐГ±Г«ГЁ Г°Г Г§Г¬ГҐГ° ГЅГЄГ°Г Г­Г  Г¬Г®Г­ГЁГІГ®Г°Г  Г¬ГҐГ­ГјГёГҐ 600 ГЇГЁГЄГ±ГҐГ«ГҐГ© */
 @media screen and (max-width: 600px) {
   h1 {
     font: 24px/50px "Helvetica Neue", Helvetica, Arial, sans-serif;
